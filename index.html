@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin-top: 14px;
+            padding: 0;
+        }
+        .text {
+            background-color: rgb(233, 60, 60);
+            color: white;
+            display: inline;
+            width: 80vw;
+            padding: 30px;
+            animation: textAnimation 1s ease-out infinite alternate ;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            border-radius: 6px;
+        }
+        @keyframes textAnimation {
+            from {
+                background-color: rgb(39, 33, 33);
+                left: 0;
+            }
+            to {
+                background-color: blueviolet;
+                left: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <span class="text">
+                আমাদের সকল প্রকার প্রিমিয়াম একাউন্টে ৫০% ডিসকাউন্ট চলছে । আমাদের একাউন্ট নিতে এখনই আমাদের সাথে যোগাযোগ করুন - অফার সীমিত সময়ের জন্য
+            </span>
+        </div>
+    </main>
+</body>
+</html>

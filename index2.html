@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: blue;
+            height: 332px;
+            position: relative;
+        }
+
+        .circle {
+            background-color: red;
+            height: 48px;
+            width: 48px;
+            border-radius: 70px;
+            position: absolute;
+            bottom: 0;
+            left: 1px;
+            animation:animationUp 1s ease-out infinite alternate, animationDown 3s linear infinite;
+        }
+        
+
+        @keyframes animationUp {
+            from {
+               bottom: 0%;
+            }
+
+            to {
+                bottom: 80%;
+            }
+
+        }
+
+        @keyframes animationDown {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="circle">
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

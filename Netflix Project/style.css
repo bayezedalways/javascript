@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+main {
+    background-image: url(images/bg.jpg);
+    height: 80vh;
+    width: 100vw;
+    filter: brightness(30%);
+    background-color: black;
+    background-size: max(1200px, 100vw);
+}
+.logo {
+    width: 54px;
+
+}
+.header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img {
+    height: 72px;
+}
+  
+  
+  
